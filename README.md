@@ -1,7 +1,7 @@
-## SP&A-Net
+## Hybrid classical-quantum deep learning
 ### Official PennyLane and Tensorflow implementation of the paper: "Semiconductor Defect Detection by Hybrid Classical-Quantum Deep Learning"
 
-## Hybrid classical-quantum deep learning
+## Architecture
 Hybrid classical-quantum deep learning (HCQDL) consists of classical layer, quantum layer, and fully connection layer. The classical layer is implemented by the self-proliferation and self-attention block that used to extract feature maps effectively. The quantum layer is composed of the quantum circuit that can generate highly complex kernels whose calculations could be classically intractable. The fully connection layer is implemented by the non-linear activation functions to calculate the probability of various semiconductor defect. To demonstrate the power of the proposed method, we present results of using HCQDL to generate eigenstates of simple molecules, complex entangled ground states, and ground states of the transverse Hamiltonian with varying local fields and spin-spin couplings. The approach achieved high accurate results and can be generalized for creating quantum states of complex systems. Plz refer to ```Hybrid_CNN.py```
 <img style="float: left;" src="./image/1.PNG" width="70%">
 
