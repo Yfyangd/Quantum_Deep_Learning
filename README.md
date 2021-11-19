@@ -45,4 +45,4 @@ This code was tested with python 3.7
 
 ```Hybrid_CNN.py``` is the hybrid classical-quantum deep learning with quantum layer and classical layer (as section 3).
 
-```CircleLoss.py``` is used to estimate the loss rate during model training with two elemental deep feature learning approaches: class-level labels and pair-wise labels (as section 3-E).
+```CircleLoss.py``` is used to estimate the loss rate during model training with two elemental deep feature learning approaches: class-level labels and pair-wise labels.
