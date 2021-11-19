@@ -3,6 +3,7 @@
 
 ## Architecture
 Hybrid classical-quantum deep learning (HCQDL) consists of classical layer, quantum layer, and fully connection layer. The classical layer is implemented by the self-proliferation and self-attention block that used to extract feature maps effectively. The quantum layer is composed of the quantum circuit that can generate highly complex kernels whose calculations could be classically intractable. The fully connection layer is implemented by the non-linear activation functions to calculate the probability of various semiconductor defect. To demonstrate the power of the proposed method, we present results of using HCQDL to generate eigenstates of simple molecules, complex entangled ground states, and ground states of the transverse Hamiltonian with varying local fields and spin-spin couplings. The approach achieved high accurate results and can be generalized for creating quantum states of complex systems. Plz refer to ```Hybrid_CNN.py```
+
 <img style="float: left;" src="./images/1.png" width="70%">
 
 ### Classical Layer
@@ -18,6 +19,7 @@ Plz refer to ```Self_Proliferate_and_Attention.py```
 
 ### Quantum Layer
 The quantum layer implemented by various quantum circuit built in the continuous-variable architecture. It consists of three consecutive parts. An encoding circuit encodes classical data to states of the qubits followed by a parametrized quantum circuit (PQC) that is applied to transform these states to their optimal location on the Hilbert space. Finally, measure the output of PQC along the z-axis with the σz operator. Plz refer to ```quantum_circuit.py```
+
 <img style="float: left;" src="./images/2.png" width="70%">
 
 ## Code
